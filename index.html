@@ -1,0 +1,38 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>Flight Time Calculator</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+</head> 
+<body> 
+
+<div data-role="page">
+
+	<div data-role="header">
+		<h1>Flight Time Calculator</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<p align="center">This app is designed to compute for the estimated flying hours based on the number of kilometers inputted by the user.</p>	
+
+		<center><label for="basic">How many kilometers?</label></center>
+		<form action="compute.php" method="post">
+		<input type="text" name="inputkms" id="basic" value="" />
+		<input type="submit" value="Compute" />
+		</form>
+		<center><br /><br />		
+		
+		<br /></br />
+		
+		<b>Copyright &copy;2013 bobreyes.com</b>
+		</center>
+	
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+</body>
+</html>
